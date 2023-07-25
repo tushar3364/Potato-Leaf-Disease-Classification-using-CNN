@@ -2,9 +2,9 @@
 ### Problem Statement :
 Farmers every year face economic loss and crop waste due to various diseases in potato plants. Early blight and Late blight are major disease of potato leaf. It is estimated that the major loss occurred in potato yield is due to these diseases. Thus the images are classified into 3 classes :
 
-Potato Late Blight,
-Potato Early Blight,
-Potato Healthy Leaf.
+Potato Late Blight,                                                            
+Potato Early Blight,                                                        
+Potato Healthy Leaf.                                                      
 The process involves several steps, including importing libraries, loading and viewing data, splitting the data into training and validation sets, data pre-processing, building the CNN model, training the model, and analyzing the model's performance.
 
 ### Step 1: Importing Libraries and Data : In this step, we import the necessary libraries such as Pandas, NumPy, and TensorFlow. We also load the potato leaf images from the PlantVillage directory using tf.keras.preprocessing.image_dataset_from_directory. This function automatically loads the images from the directory and creates an image dataset along with their corresponding labels.
