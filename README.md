@@ -4,8 +4,12 @@ Farmers every year face economic loss and crop waste due to various diseases in 
 
 Potato Late Blight,                                                            
 Potato Early Blight,                                                        
-Potato Healthy Leaf.                                                      
+Potato Healthy Leaf.      
+
 The process involves several steps, including importing libraries, loading and viewing data, splitting the data into training and validation sets, data pre-processing, building the CNN model, training the model, and analyzing the model's performance.
+
+
+Dataset is available at Kaggle : https://www.kaggle.com/datasets/arjuntejaswi/plant-village
 
 ### Step 1: Importing Libraries and Data : In this step, we import the necessary libraries such as Pandas, NumPy, and TensorFlow. We also load the potato leaf images from the PlantVillage directory using tf.keras.preprocessing.image_dataset_from_directory. This function automatically loads the images from the directory and creates an image dataset along with their corresponding labels.
 
@@ -21,4 +25,3 @@ The process involves several steps, including importing libraries, loading and v
 
 ### Step 7: Predicting on New Images (Unknown Leaf) : Finally, we plot and analyze images from a new directory called "Unknown Leaf," which contains leaf images downloaded from the internet. We use the trained CNN model to predict the class (Potato Late Blight, Potato Early Blight, or Potato Healthy Leaf) of each unknown leaf image.
 
-Dataset is available at Kaggle : https://www.kaggle.com/datasets/arjuntejaswi/plant-village
